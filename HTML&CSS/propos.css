@@ -1,0 +1,29 @@
+/* relative proposition
+.prop {
+    border: 1px solid black;
+    padding: 20px;
+    position: relative;
+}
+img {
+    position: relative;
+    width: 100px;
+    top: -10px;  
+} */
+ .prop {
+    position: relative;
+    width: 300px;
+    height: 200px;
+ }
+ img{
+    width: 1000px;
+    height: auto;
+ }
+ .pro {
+    position: absolute;
+    top: -10px;
+    right: -100px;
+    background-color: red;
+    color: whitesmoke;
+    padding: 5px 10px;
+    border-radius: 10vh;
+ }

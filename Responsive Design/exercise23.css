@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body{
+    font-family: "Roboto", sans-serif;
+}
+img{
+    max-width: 100%;
+    border-radius: 5px;
+}
+.blogpost{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+.bogs{
+    max-width: 500px;
+    width: 25%;
+    background-color:#fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 4px rgba(0,0,0,0.2);
+    text-align: center;
+    padding: 20px;
+}
+
+
+@media(max-width:1220px){
+    .bogs{
+        width: calc(25% - 10px);
+    }
+}
+
+@media(max-width: 768px){
+    .bogs {
+        width: calc(50% - 10px);
+    }
+}
+
+
+@media(max-width: 479px){
+    .bogs{
+        width: 100%;
+    }
+}

@@ -1,0 +1,26 @@
+body { 
+    background-color: wheat;
+}
+#character-name{
+    color: blueviolet;
+    font-size: 50px;
+}
+p {
+    color: rgb(223, 42, 214);
+    font-size: 20px;
+}
+#fav1 {
+    color: aqua;
+}
+#fav2 {
+    color: darkgoldenrod;
+}
+#fav3 {
+    color: darkmagenta;
+}
+#fav4 {
+    color: blue;
+}
+#fav5 {
+    color: red;
+}

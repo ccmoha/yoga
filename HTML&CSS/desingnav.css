@@ -1,0 +1,36 @@
+.nav-logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    background-color: rgb(0, 0, 0, 0.4);
+}
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+.nav-logo h2 {
+    color: blue;
+}
+.Nav-login button {
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.Nav-login button:hover {
+    background-color: red;
+}
+.page{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

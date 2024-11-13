@@ -1,0 +1,20 @@
+/* exercise 4 */
+.qoute {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-style: italic;
+}
+#footer {
+    font-weight: bold;
+
+}
+/* exercise 5 */
+h2 {
+    text-align: center;
+}
+p {
+    line-height: 1.5;
+}
+span {
+    text-decoration: underline;
+}

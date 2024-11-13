@@ -1,0 +1,29 @@
+.grid-container {
+    display: grid;
+    padding: 10px;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    color: rgb(7, 7, 7);
+    gap: 10px;
+    text-align: center;    
+
+    
+}
+.main {
+    display: grid;
+    grid-column: 1 / span 3;
+    grid-row: 1 / span 2;
+    background-color: blue;
+    border: 5px solid yellow;
+    border-radius: 2px;
+    padding: 20px;
+    text-align: center;
+    
+}
+.art1, .art2, .art3, .art4{
+    background-color: blue;
+    text-align: center;
+    border: 5px solid yellow;
+    border-radius: 3px;
+    padding: 20px;
+}

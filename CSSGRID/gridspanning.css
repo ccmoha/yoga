@@ -1,0 +1,36 @@
+/* .container {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap: 5px;
+}
+.item {
+    background-color: blueviolet;
+    padding: 20px;
+}
+.item1 {
+    grid-column: 1/ span 2;
+} */
+.span {
+    display: grid;
+    padding: 20px;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 200px 200px;
+    gap: 10px;
+}
+.item1 {
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 4;
+    background: url(https://demo.tagdiv.com/newspaper_pro/wp-content/uploads/2019/08/h104-696x464.jpg.webp) no-repeat center;
+
+}
+.item2 {
+    grid-column: 3 / span 2;
+    background: url(https://demo.tagdiv.com/newspaper_pro/wp-content/uploads/2019/08/28-696x368.jpg.webp) no-repeat center;
+}
+.item3 {
+    background: url(https://demo.tagdiv.com/newspaper_pro/wp-content/uploads/2019/08/54-1-696x405.jpg.webp) no-repeat center;
+}
+ .item4{
+    background: url("https://demo.tagdiv.com/newspaper_pro/wp-content/uploads/2019/08/43-2-696x464.jpg.webp") center / cover no-repeat;
+ }

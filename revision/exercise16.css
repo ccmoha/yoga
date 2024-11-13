@@ -1,0 +1,20 @@
+.media-player{
+    display: flex;
+    /* background-color: rgba(120, 200, 100, 0.6); */
+    width: 700px;
+}
+.control-button{
+    display: flex;
+    padding: 20px;
+    flex-grow: 1;
+    margin: 10px;
+    background-color: brown;
+    justify-content: center;
+    border-radius: 10px;
+    border: 2px solid #111;
+
+}
+.play {
+    display: flex;
+    flex-grow: 2;
+}

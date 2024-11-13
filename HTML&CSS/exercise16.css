@@ -1,0 +1,12 @@
+.media-player {
+    display: flex;
+    width: 300;
+    padding: 5px 10px;
+}
+.control-button {
+    flex: 1;
+    color: blue;
+}
+.play {
+    flex: 2;
+}

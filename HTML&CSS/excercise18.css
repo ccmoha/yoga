@@ -1,0 +1,89 @@
+.blog {
+    top: 0;
+    display: flex;
+    background-color: #333;
+    width: 100%;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    flex-direction: row;
+    padding: 10px;
+    position: fixed;
+    z-index: 1000;
+}
+
+.sidebar {
+    display: flex;
+    padding: 20px;
+    background-color: beige;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100px;
+    height: 100vh;
+    right: 0;
+    top: 0;
+    position: absolute;
+    margin-top: 5%;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: chocolate;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    margin: 10;
+    width: 100%;
+}
+
+.section {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+}
+.arti-sec1, .arti-sec2, .arti-sec3, .arti-sec4 {
+    display: flex;
+    width: 200px;
+    top: 0;
+    height: auto;
+    max-width: 300px;
+    justify-content: flex-start;
+    flex-direction: column;
+    justify-items: flex-start;
+    align-items: center;
+    border: 3px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    background-color: #fff;
+    position: sticky;
+    margin-top: 40px;
+}
+.arti-sec1 img, .arti-sec2 img, .arti-sec3 img, .arti-sec4 img {
+    width: 200px;
+    height: auto;
+}
+.section a {
+    background-color: blue;
+    color: white;
+    padding: 30px;
+    margin: 10px;
+    text-decoration: none;
+}
+p {
+    flex-wrap: wrap;
+}
+.footer {
+    position: fixed;
+    padding: 20px;
+    width: 100%;
+    bottom: 0;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    text-align: center;
+}

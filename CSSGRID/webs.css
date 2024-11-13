@@ -1,0 +1,131 @@
+/* universal selector muxuu ku sameyn kartaa boder boxzing si aysan iskugu darsamin */
+*{
+    box-sizing: border-box;
+}
+/* sidoo kale waxan kuso darsanay google fonts waxana ku kala darnay html file iyo css fileka */
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: black;
+    color: white;
+}
+/* intana waxa lagu sameyee main container css iyadoo loo samee margin iyo width */
+.contianer {
+    width: 1110px;
+    margin: 0 auto;
+}
+/* inta waxa ku controlnay kaliya main container layoutkisa sida inta column uu qadanaayo iyo inta gap space iyo display type kisa */
+
+.web-contianer {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(4,1fr);
+}
+/*  web container ayaa loogu sameeye css style*/
+.web-contianer div {
+    /* background-color: #ead600; */
+    padding: 10px;
+}
+/*  main blog wuxu qaatay 3 meelod meel 
+sido kale waxaa loo sameyee dispaly u qaas eh blogs iyadoo la is garab dhigaayo*/
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column: 1 / span 3;
+}
+/* sidoo kale inta wxaan ku saxaynay blog imageka iyadoo si full eh loogu fadhisinaayo grid widthkisa */
+.blogs .blog img {
+    width: 100%;
+    height: auto;
+}
+/* waxa style lagu sameynaa blog of blog's font */
+.blogs .blog blog-title {
+    font-weight: 500;
+    line-height: 29px;
+    font-size: 22px;
+    cursor: pointer;
+}
+/* halkaana waxaa lagu style gareeyay font color ee h2 ama p */
+.blogs .blog h2:hover {
+    color: #ffa301;
+}
+/* halkana style loogu sameeyay bagde-date iyadoo la isticmaalay flex*/
+.blogs .blog .badge-date {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+}
+.blogs .blog .badge-date .badge {
+    font-weight: 700;
+    color: #230e00;
+    line-height: 11px;
+    font-size: 11px;
+    background-color: #bb7700;
+    padding: 2px 5px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+.blogs .blog .badge-date .date {
+    font-weight: 700;
+    color: #767676;
+    line-height: 11px;
+    font-size: 11px;
+    /* background-color: #bb7700; */
+    padding: 2px 5px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+/* halkaana waxan style ugu sameynaa side barka */
+.add .ad{
+    background: url("https://demo.tagdiv.com/newspaper_black_pro/wp-content/uploads/2019/12/custom-rec-2.jpg") center / cover no-repeat;
+    width: 347px;
+    height: 277px;
+}
+.instagram .user {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.instagram .user .profile {
+    display: flex;
+}
+.instagram .user .profile img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.instagram .user .profile .user-info {
+    display: flex;
+    flex-direction: column;
+}
+.instagram .user .profile .user-info:nth-child(1){
+    color: #ddd;
+    line-height: 26px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.instagram .user .profile .user-info:nth-child(2){
+    color: #aaa;
+    line-height: 21px;
+    font-size: 12px;
+    font-weight: 700;
+}
+.foll {
+    background-color: transparent;
+    color: #888;
+    line-height: 13px;
+    font-size: 13px;
+    font-weight: 500;
+    border: 1px solid #444;
+    padding: 8px 15px;
+    cursor: pointer;
+}
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.gallery img{
+    width: 100%;
+}

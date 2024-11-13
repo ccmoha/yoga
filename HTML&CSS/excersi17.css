@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    align-items: center; 
+    justify-content: space-around; 
+    border: 1px solid #00000000; 
+    padding: 20px;
+    flex-direction: row;
+    flex: 1;
+  }
+  .image-container {
+    flex: 2;
+    max-width: 40%; 
+  }
+  img {
+    width: 100%;
+    height: auto;
+  }
+  .text-container {
+    flex: 2;
+    padding: 0 20px;
+  }
+  h1 {
+    margin-bottom: 10px;
+  }
+  
+  p {
+    margin-bottom: 20px;
+  }
+  .button-container {
+    background-color: #0000ff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+  }

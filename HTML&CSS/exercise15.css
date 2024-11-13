@@ -1,0 +1,29 @@
+.nav-bar {
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    top: 0px;
+}
+.nav-bar a {
+    text-decoration: none;
+    background-color: rgb(96, 100, 104);
+    border: solid rgb(215, 211, 211, 0.1);
+    color: black;
+    padding: 10px;
+    margin: 10px;
+}
+.pic-card {
+    width: 300px;
+    padding:10px;
+    border: solid 5px rgb(138, 134, 137);
+    color: black;
+    margin: 10px;
+    display: inline-block;
+}
+.content-box{
+    box-sizing: content-box; 
+}
+.pic-card img {
+    width: 100%;
+    height: auto;
+}

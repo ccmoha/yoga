@@ -1,0 +1,31 @@
+   .navbar {
+    background-color: bisque;
+    padding: 20px 0;
+    margin: 10px;
+    text-align: center;
+    border: 3px solid rgba(150 200 300);
+   }
+   .navbar a {
+    text-decoration: none;
+    padding: 20px;
+    margin: 20px;
+    background-color: tomato;
+    border-radius: 5px;
+   }
+   .context-box{
+    width: 300px;
+    padding: 20px;
+    margin: 5px;
+    border: 10px solid black;
+    display: inline-block;
+
+   }
+   .context-box img{
+    width: 100%;
+   }
+   .css-model .navbar{
+    box-sizing: content-box;
+   }
+   .css-model .context-box{
+    box-sizing: border-box;
+   }

@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.container{
+    width: 1110px;
+    margin: 0 auto;
+}
+body{
+    font-family: "Roboto", sans-serif;
+}
+img{
+    width: 100%;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+.main {
+    grid-column: 1/span 2;
+}
+.topbar{
+    border-bottom: 2px solid black;
+    padding: 5px 0;
+}
+.topbar span{
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 400;
+}
+.sidebar{
+    background-color: antiquewhite;
+}
+.blog{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+/* .blog-info{
+    display: flex;
+} */
+/* .author-date{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+} */
+
+.blog img {
+    width: 222.719px;
+    height: 155.891px;
+}
+.blog-info h2{
+    font-size: 22px;
+    line-height: 29px;
+    font-weight: 400;
+}
+.blog-info h2:hover{
+    cursor: pointer;
+    color: aqua;
+}
+.author-date .author{
+    font-size: 11px;
+    line-height: 11px;
+    font-weight: 700;
+}
+.author-date .date , .line{
+    font-size: 11px;
+    line-height: 11px;
+    font-weight: 400;
+    color: #767676;
+}
+.description{
+    display: flex;
+    font-size: 13px;
+    line-height: 21px;
+    font-weight: 400;
+    color: #767676;   
+}
+.adds{
+    background: url("https://demo.tagdiv.com/newspaper_pro/wp-content/uploads/2019/10/newspaper-rec300d.jpg.webp") center / cover no-repeat;
+    width: 300px;
+    height: 250px;
+}
+.ads{
+    border-color: #8954c1;
+}
+.ads span{
+    background-color: rgb(159, 79, 234);
+}
+.blog.sidebaradds{
+    flex-direction: column;
+}
+.blog.sidebaradds img{
+    width: 100%;
+    height: auto;
+}
+.blog.sidebaradds .author-date{
+    margin-block: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.blog.sidebaradds .author-date{
+
+}

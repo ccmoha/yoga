@@ -1,0 +1,14 @@
+.fixed-footer {
+    position: fixed;
+    bottom: 0;
+    background-color: #333;
+    padding: 20px 0;
+    margin: 20px 0;
+    width: 100%;
+    text-align: center;
+}
+.fixed-footer a, span{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+}

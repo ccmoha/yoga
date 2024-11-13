@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* box-sizing: border-box; */
+}
+.whatsapp{
+    margin: 0 auto;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: antiquewhite;
+}
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    padding: 10px;
+    list-style: none;
+}
+.nav-bar a{
+    text-decoration: none;
+    color: black;
+}
+.nav-img{
+    display: flex;
+    width: 200px;
+    padding: 3px 10px;
+}
+.nav-login{
+    display: flex;
+    padding: 0 10px 0 0;
+}
+#log{
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    
+}
+#log:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    transition: 0.3s;
+}
+#down{
+    border: 2px solid rgb(30, 32, 30);
+    background-color: rgb(139, 235, 137);
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    
+}
+#down:hover{
+    cursor: pointer;
+    background-color: rgb(12, 12, 12);
+    color: white;
+    transition: 0.3s;
+}
+.whatsapp-page{
+    display: flex;
+    border-radius: 15px;
+    position: relative;
+    padding: 40px;
+    margin: 20px;
+    background-color: antiquewhite;
+    
+}
+.whatsapp-page img{
+    width: 100%;
+    border-radius: 15px;
+    height: 800px;
+}
+.section-art1{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    right: 0px;
+    left: 110px;
+    top: 300px;
+
+}
+.section-art1 span, h1{
+    color: white;
+    padding: 10px;
+}
+.art{
+    /* width: auto; */
+    display: flex;
+}
+.img-art1{
+    position: absolute;
+    right: 0px;
+    left: 900px;
+    top: 150px;
+    width: 400px;
+
+}
+.img-art2{
+    position: absolute;
+    right: 0px;
+    left: 900px;
+    top: 165px;
+    width: 400px;
+}
+.img-art3{
+    position: absolute;
+    right: 0px;
+    left: 900px;
+    top: 250px;
+    width: 400px;
+}
+.img-art4{
+    position: absolute;
+    right: 0px;
+    left: 900px;
+    top: 350px;
+    width: 400px;
+}
+.img-art5{
+    position: absolute;
+    right: 0px;
+    left: 900px;
+    top: 150px;
+    width: 400px;
+    /* padding: 10px; */
+}
+.img-art6{
+    position: absolute;
+    right: 0px;
+    left: 900px;
+    top: 650px;
+    width: 400px;
+}

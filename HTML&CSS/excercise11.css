@@ -1,0 +1,17 @@
+.feature-section {
+    background-image: url(https://media.istockphoto.com/id/1089032842/photo/textured-black-background.jpg?s=612x612&w=0&k=20&c=KTvdNuq3Z6kpmxSl9f__FLnDjzttO4pthHOii-NKXp8=);
+    width: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    background-size: cover;
+    color: rgb(251, 248, 248);
+    padding: 20px;
+    border-radius: 30px;
+}
+.feature-section img {
+    border-radius: 50px;
+    width: 200px;
+    height: 200px;
+    border: 1px solid tomato;
+}

@@ -1,0 +1,18 @@
+.mybio {
+    width: 500px;
+    background-image: url(https://plus.unsplash.com/premium_photo-1664640458839-000c310875fa?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: whitesmoke;
+    padding: 20px;
+    border-radius: 35px;
+
+}
+.mybio img{
+    width: 300px;
+    height: 300px;
+    border: 1px solid color tomato;
+    border-radius: 50%;
+}

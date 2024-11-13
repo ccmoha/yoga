@@ -1,0 +1,50 @@
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+img{
+    width: 100%;
+}
+.consulting{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.consulting_list{
+    padding: 10px;
+}
+
+
+/* mobile */
+@media(max-width:480px){
+    .consulting{
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+    }
+}
+
+/* Tablets */
+@media(max-width: 768px) and (min-width: 479px){
+    .consulting{
+        grid-template-columns: repeat(2, 1fr);
+        
+    }
+}
+
+/* laptop */
+@media(max-width: 1440px) and (min-width: 769px){
+    .consulting{
+        grid-template-columns: repeat(3, 1fr);
+        
+    }
+}
+
+/* Big Screen */
+@media(max-width: 2560px) and (min-width: 1441px){
+    .consulting{
+        grid-template-columns: repeat(4, 1fr);
+        
+    }
+}

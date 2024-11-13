@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+body{
+    font-family: "Inter", sans-serif;
+}*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+body{
+    font-family: "Inter", sans-serif;
+}
+img{
+    max-width: 100%;
+    border-radius: 4px;
+}
+.profile-cards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: center;
+}
+.card {
+    min-width: 300px;
+    width: 25%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 4px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+
+@media(max-width : 480px){
+    .card{
+        width: 100%;
+    }
+}
+
+
+@media(max-width: 768px){
+    .card{
+        width: calc(50% -10px);
+    }
+}
+
+@media(max-width: 1200px){
+    .card{
+        width: calc(33% - 10px);
+    }
+}
+
+/* @media(max-width : 480px){
+    .profile-cards{
+        width: 100%;
+    }
+}
+
+
+@media(max-width: 768px){
+    .profile-cards{
+        width: calc(50% -10px);
+    }
+}
+
+@media(max-width: 1200px){
+    .profile-cards{
+        width: calc(33% - 10px);
+    }
+} */
+
+
+

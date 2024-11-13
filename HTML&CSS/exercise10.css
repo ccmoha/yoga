@@ -1,0 +1,22 @@
+#div1 {
+    display: inline;
+    background-color: lightblue;
+    width: 100vh;
+    line-height: 25vw;
+
+}
+#span1 {
+    display: block;
+    background-color: coral;
+    margin-top: 10px;
+}
+#div2 {
+    display: none;
+}
+#span2 {
+    display: block;
+    width: 98vh;
+    line-height: 40vw;
+    background-color: yellow;
+    margin-top: 10px;
+}

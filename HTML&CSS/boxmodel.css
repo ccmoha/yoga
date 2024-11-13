@@ -1,0 +1,40 @@
+.profile-card {
+    width: 300px; /* Intended total width */
+    padding: 20px; /* Uniform padding */
+    border: 5px solid #333; /* Consistent border */
+    margin: 10px auto; /* Centered margin for display */
+    background-color: #f0f0f0; /* Light background for visibility */
+    display: inline-block;
+}
+
+.content-box {
+    box-sizing: content-box; /* Width does not include padding or border */
+}
+
+/* .content-box {
+    box-sizing: border-box;
+} */
+
+.profile-card img {
+    width: 100%; /* Responsive image size */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 10px; /* Space between image and text */
+}
+
+.profile-card h3, .profile-card p {
+    margin: 5px 0; /* Vertical spacing for text */
+}
+.nav-bar {
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    top: 10px;
+}
+.nav-bar a {
+    text-decoration: none;
+    background-color: rgb(96, 100, 104);
+    border: solid rgb(215, 211, 211, 0.1);
+    color: black;
+    padding: 10px;
+    margin: 10px;
+}

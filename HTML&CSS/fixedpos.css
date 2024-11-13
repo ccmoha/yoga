@@ -1,0 +1,14 @@
+.fixed {
+    position: fixed;
+    top: 0px;
+    background-color: brown;
+    width: 100%;
+    padding: 10px 0px;
+    text-align: center;
+
+}
+.fixed a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+}

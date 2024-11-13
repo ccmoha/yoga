@@ -1,0 +1,46 @@
+.name {
+    background-color:#ee3655;
+    color(srgb #c57f7f)
+}
+.about {
+    background-color: #8df1d0;
+}
+.service{
+    background-color: violet;
+    color: #ffffff;
+}
+.footer{
+    background-color: #000300;
+    color: #ffffff;
+}
+.testimonial1 {
+    background-color: #2a537c;
+    color: #e5dddd;
+}
+.author{
+    color: #da3bca;
+}
+#title {
+    color: #da3bca;
+}
+.testimonial2 {
+    background-color: #efe519;
+    color: #41050e;
+}
+.name{
+    color: #4a0ee1;
+}
+#title2 {
+    color: #da3bca;
+}
+
+.testimonial3 {
+    background-color: #2e19ef;
+    color: #5e0b10;
+}
+.writen{
+    color: #f44219;
+}
+#title2 {
+    color: tomato;
+}

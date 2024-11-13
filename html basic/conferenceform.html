@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Conference Form</title>
+</head>
+<body>
+    <form>
+        <h1 style="text-align:center;">Conference Registration Form</h1>
+        
+        <h2>Personal Information Section:</h2>
+        <label> Name:</label>
+        <input type="text" id="name" name="name" placeholder="Full Name"><br>
+        
+        <label> Email Address:</label>
+        <input type="email" id="email" name="email" required placeholder="ccmoha@dugsiiye.com"><br>
+        
+        <label> Contact Number:</label>
+        <input type="text" id="mobile" name="mobile" placeholder="+252-615-964455"><br>
+        
+        <h2>Conference Details Section:</h2>
+        <fieldset>
+            <legend>Preferred Day(s) of Attendance:</legend>
+            <label>Day 1:</label>
+            <input type="checkbox" name="day1">
+            <label>Day 2:</label>
+            <input type="checkbox" name="day2">
+            <label>Day 3:</label>
+            <input type="checkbox" name="day3"><br>
+        </fieldset><br>
+        
+        <fieldset>
+            <legend>Type of Attendance:</legend>
+            <label>Virtual:</label>
+            <input type="radio" id="virtual" name="attendance">
+            <label>In Person:</label>
+            <input type="radio" id="in_person" name="attendance"><br>
+            
+            <label for="T-shirt">T-shirt Size:</label>
+            <select name="T-shirt" id="T-shirt">
+                <option>S</option>    
+                <option>M</option>    
+                <option>XL</option>  
+                <option>XXL</option> 
+            </select><br>
+        </fieldset><br>
+        
+        <h2>Sessions of Interest Section:</h2>
+        <fieldset>
+            <legend>Attendance Interest:</legend>
+            <label>Web Development:</label>
+            <input type="checkbox" name="Web Development">
+            <label>Data Science:</label>
+            <input type="checkbox" name="Data Science">
+            <label>Cloud Computing:</label>
+            <input type="checkbox" name="Cloud Computing"><br>
+            <label>Cybersecurity:</label>
+            <input type="checkbox" name="Cybersecurity"><br>
+            <label>AI:</label>
+            <input type="checkbox" name="AI"><br>
+            <label>Machine Learning:</label>
+            <input type="checkbox" name="Machine Learning"><br>
+        </fieldset><br>
+        
+        <h2>Dietary Preferences Section:</h2>
+        <fieldset>
+            <legend>Dietary Preferences:</legend>
+            <label>Vegetarian:</label>
+            <input type="checkbox" name="Vegetarian" required>
+            <label>Vegan:</label>
+            <input type="checkbox" name="Vegan">
+            <label>Gluten-Free:</label>
+            <input type="checkbox" name="Gluten-Free"><br>
+            <label>Nut-Free:</label>
+            <input type="checkbox" name="Nut-Free"><br>
+            <label>Dairy-Free:</label>
+            <input type="checkbox" name="Dairy-Free"><br>
+            <label>No Restrictions:</label>
+            <input type="checkbox" name="No Restrictions"><br>
+        </fieldset>
+        
+        <h2>Additional Comments Section:</h2>
+        <label>Comments:</label>
+        <textarea></textarea><br>
+        
+        <h2>Consent Section:</h2>
+        <fieldset>
+            <legend>Consent:</legend>
+            <label>via email:</label>
+            <input type="checkbox" name="via email">
+        </fieldset><br>
+        
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>
+
